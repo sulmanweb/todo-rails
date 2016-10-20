@@ -1,0 +1,13 @@
+<!-- Help in code is from https://github.com/plataformatec/devise/wiki/How-To:-Integrate-I18n-Flash-Messages-with-Devise-and-Bootstrap -->
+<% flash.each do |key, value| %>
+<% key = "info" if key=="notice" %>
+<% key = "danger" if key=="alert" %>
+<div class="alert alert-<%= key %> alert-dismissible" role="alert">
+  <a href="#" data-dismiss="alert" class="close">×</a>
+  <ul>
+    <li>
+      <%= value %>
+    </li>
+  </ul>
+</div>
+<% end %>
