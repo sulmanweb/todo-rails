@@ -1,14 +1,16 @@
 # README
 
-Created by (Sulman Baig)[http://www.sulmanbaig.com]
+Created by [http://www.sulmanbaig.com](Sulman Baig)
 
-ToDo app in Ruby on Rails
+ToDo app in Ruby on Rails like wunderlist
 
 ## Technologies
+
 - Ruby 2.3.1
 - Rails 5.0.0.1
 
 ## Getting started
+
 - Clone the repository
 - Run `bundle install` in terminal
 - Run in terminal `cp config/secrets.example.yml config/secrets.yml` in terminal.
